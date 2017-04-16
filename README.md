@@ -6,11 +6,11 @@ by Gerard Spivey
 ## Goal
 
 A simple tool to aid websites that have grown.
-After your site grows past 4-5 statig pages maintaining it may become cumbersome.
-At this point using a static site generator such as jekyll may be cumbersome or have limitations
-based on our initial implementation.
+After your site grows past 4-5 static pages maintaining it may become cumbersome.
+At this point using a static site generator such as jekyll may be problematic or have limitations
+based on your initial implementation.
 
-This tool looks to aid in bringing website template capabilities to production.
+This tool looks to aid in bringing website template capabilities to in production sites.
 This script can easily be used along with a continous integration (CI) server or manually ran
 before site publication.
 
