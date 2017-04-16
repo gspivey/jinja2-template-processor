@@ -1,7 +1,7 @@
 # jinja2-template-processor
 
 Python script to hande a website build step for a static website templated with jinja2.
-by Kent C. Dodds
+by Gerard Spivey
 
 ## Goal
 
@@ -21,9 +21,6 @@ pip install jinja2
 ```
 
 ### Ensure you have the correct directory structure
-
-Note, this happens as part of the installation of `kcd-common-tools`
-
 
 ```
 Directory Structure:
