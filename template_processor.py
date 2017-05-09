@@ -70,8 +70,10 @@ def main():
     Returns:
         none
     """
-    shutil.rmtree(".public")
-    os.mkdir(".public")
+    dest_dir = ".public"
+    if os.path.isdir(dest_dir):
+        shutil.rmtree(dest_dir)
+    os.mkdir(dest_dir)
 
     env = Environment(
         loader=FileSystemLoader('templates'),
